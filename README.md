@@ -19,11 +19,11 @@ Build a resilient and efficient NoSQL infrastructure on which to query 5 differe
 4. Find which Actor/Country/Organization received the highest number of articles with a positive/negative tone for every triplet Month/Country/ArticleLanguage
 5. Estimate the evolution of geopolitical relationship between two given countries based on articles coverage
 
-##### Approach
+### Approach
 - Build a MongoDB infrastructure via AWS EC2 
 - Pre-process GDELT via Spark Scala to store 1 year of data on MongoDB (going from 700GB of data down to 79GB after pre-processing)
 
-##### Results
+### Results
 - Infrastructure able to requests all required information
 - Resilient 
 - Low-cost
