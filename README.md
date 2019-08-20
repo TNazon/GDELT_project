@@ -1,15 +1,17 @@
 # GDELT Project 
 
-##### What the GDELT Project is 
+### What the GDELT Project is 
 Access [The GDELT Project](https://www.gdeltproject.org/)
+
 Databases used for the project: 
+
 **GDELT Event Databse**
 > The GDELT Event Database records over 300 categories of physical activities around the world, from riots and protests to peace appeals and diplomatic exchanges, georeferenced to the city or mountaintop, across the entire planet dating back to January 1, 1979 and updated every 15 minutes.
 
 **GDELT Global Knowledge Graph**
 > Much of the true insight captured in the world's news media lies not in what it says, but the context of how it says it. The GDELT Global Knowledge Graph (GKG) compiles a list of every person, organization, company, location and several million themes and thousands of emotions from every news report, using some of the most sophisticated named entity and geocoding algorithms in existance, designed specifically for the noisy and ungrammatical world that is the world's news media.
 
-##### Goal 
+### Goal
 Build a resilient and efficient NoSQL infrastructure on which to query 5 different requests on the GDELT database: 
 1. Display number of articles/events published/that occured for a triplet Day/Country/ArticleLanguage
 2. For a given "Actor", display events related to such an actor in the last 6 months
